@@ -1,0 +1,24 @@
+
+.people{
+    size: 20px;
+}
+body{
+    background-image: url("./bgImage.jpg");
+    background-size: auto;
+}
+p{
+    color:aqua;
+}
+h1{
+    color:aquamarine;
+}
+.container{
+    display: grid;
+    grid-template-columns:50% 50%;
+    text-align: center;
+}
+.reserve{
+    height: 50px;
+    width: 150px;
+    margin-top: 15%;
+}

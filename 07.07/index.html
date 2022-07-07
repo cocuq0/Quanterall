@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sports Bar</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1 style="text-align:center;">Резервирай</h1>
+        <div class="container">
+        
+        <span class="dateS" >
+            <p>Дата</p>
+            <input type="date" class="date" onchange = "onDateChange()" >
+        </span>
+        <span class="timeS">
+            <p>Час</p>
+            <input type="time" class="time"  >
+        </span>
+        <br><br>
+        <span class="zones" >
+            <form action="#">
+                <p>Избери зона</p>
+                <select name="zone" class="zone">
+                  <option value="masa">Маса</option>
+                  <option value="bar">Бар</option>
+                  <option value="terasa">Тераса</option>
+                </select>
+          </form>
+          
+        </span>
+        <span class="smokers">
+            <form action="#">
+                <p>Избери</p>
+                <select name="somker" class="smoker">
+                    <option value="smoker">Пушачи</option>
+                    <option value="nonsmoker">Не Пушачи</option>
+                </select>
+            </form>
+        </span>
+        <span class="tables">
+            <form action="#">
+                <p>Избери Маса</p>
+                <select name="table" class="table">
+                  <option value="m1">Маса 1</option>
+                  <option value="m2">Маса 2</option>
+                  <option value="m3">Маса 3</option>
+                  <option value="m4">Маса 4</option>
+                  <option value="m5">Маса 5</option>
+                  <option value="m6">Маса 6</option>
+                  <option value="m7">Маса 7</option>
+                  <option value="m8">Маса 8</option>
+                  <option value="m9">Маса 9</option>
+                </select>
+          </form>
+        </span>
+        <span class="people">
+            <p>Избери брой хора</p>
+            <input type="number" id="people">
+        </span>
+        <button class="reserve">Резервирай</button>
+        </div>
+        <script src ="./script.js"/>
+    </body>
+   
+</html>
